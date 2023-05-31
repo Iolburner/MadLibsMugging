@@ -88,7 +88,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Noun"
+                android:text="Object"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
@@ -99,7 +99,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Noun"
+                android:text="Object"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
@@ -110,7 +110,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="text"
-                android:text=""
+                android:text="Name"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
@@ -121,7 +121,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Name"
+                android:text="Vehicle"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText10" />
@@ -132,7 +132,7 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Name"
+                android:text="Adjective"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
@@ -143,10 +143,19 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="text"
-                android:text="Name"
+                android:text="Emotion"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextText9" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="329dp"
+                android:layout_height="64dp"
+                android:text="Lets Go!"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="505dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
