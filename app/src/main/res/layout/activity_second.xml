@@ -12,7 +12,7 @@
         android:layout_height="1312dp"
         android:ems="10"
         android:inputType="text"
-        android:text=""
+        android:text="l"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
